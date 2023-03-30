@@ -28,12 +28,11 @@ int main(void)
 	printf("%s", ptr);
 
 	for (i = 0; i < 98; i++)
-
 	{
 		if (i % 10)
 		{
 		printf(" ");
-
+		
 		}
 		if (!(i % 10) && i)
 		{
