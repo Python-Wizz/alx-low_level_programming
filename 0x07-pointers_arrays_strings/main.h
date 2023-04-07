@@ -1,1 +1,15 @@
-VimCrypt~03!1ôþ:qwP»þi#òó°y°.<½J†X÷Ž-oãÎƒ’ËOÁAøÚ&;fµ{rø "Y[ò<!2»¾¢ÚkÉ‡ÕÈÒ-ð¬œP%“ª5š¯Bƒ–_:êzëQj=ÞŸâ²IÎžG0’ÚF1k<~û¡.â/h™³š`‘k¼Ú,ÓwMèÆ §^AÓà›h›â’†˜Á@ƒE[—½FÐÖ§´G•|R8èÞ&­ð–Ÿn–eåE¥Åk#H)aJ¹­P/°¼ˆmÈUÄ©AÏÉ3Á–õ¨2ÂCý"ŸYl$}ŸïJÓ±ä*šYÅ&NPìŽÍ/š¥ÅUâF4}ìò3Õ$Àéjµe‘ti{Ú‰g19ªü(Uo±}&”ŒTSê!œ*ö¦YÖ¥%¹<êÀ×VUáûÆwGÁØY²ôÜ\@Én®Éž6ð‚p¶ëæ€5ÓÑ¯¨Ç˜¯Àˆ3l¬¾vJ€‘#Á­Kn™TZS	29½J£Ç§O•tug|m¼3~û¿GY·’qíŸaG§*‚—®§@Èü¼fEÆFº7¡æTDÄWWÐÔ¬2€çÊâ	³«ó·<æµ‚
+#ifndef MAIN_H
+#define MAIN_H
+
+int _putchar(char c);
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
+void set_string(char **s, char *to);
+
+#endif /* MAIN_H */
