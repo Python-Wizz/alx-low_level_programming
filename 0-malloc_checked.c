@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * maloc_checked - Allocates memory
- * @b the size to allocate
+ * malloc_checked - Allocates memory
+ * @b: the size to allocate
  *
  * Return: Nothing.
  */
